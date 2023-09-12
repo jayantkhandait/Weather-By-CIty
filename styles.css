@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.card{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px 70px;
+    background-color: plum;
+    width: 330px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0,0,0);
+}
+.search-tool{
+    margin-bottom: 40px;
+}
+.search-city{
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    margin-left: 0.6rem;
+    color: white;
+    background-color: lightgreen;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+img, .png{
+    height: 120px;
+}
+
+.temp{
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+
+.city-name{
+    font-size: 1.5rem;
+}
+
+.info{
+    display: flex;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.humidity-png{
+    height: 90px;
+}
+.wave-png{
+    height: 60px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+.wind-speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    width: 110px;
+}
