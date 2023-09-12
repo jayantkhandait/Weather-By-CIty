@@ -1,4 +1,4 @@
-const key = "e7b400a2eebc5b486a4f6b16bfb5e06c"
+const key = "openweatherkey"
 
 const btn = document.querySelector('#search');
 const temp = document.querySelector('.temp-value');
